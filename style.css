@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.button {
+    padding: 22px;
+    margin : 0 5px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-in 0.4s;
+}
+.button:hover{
+    transform: scale(1.04);
+}
+.rows {
+    margin: 5px 0;
+    gap:10px;
+}
+.title-center{
+    text-align: center;
+    color: rgb(44, 122, 148);
+    padding: 15px;
+    text-shadow: 0px 0px 10px rgb(44, 122, 148);
+}
+
+.rows input {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.container {
+    background-color: rgb(31, 154, 174);
+    width: 310px;
+    height: 420px;
+    box-shadow: 0px 0px 15px rgb(31, 154, 174); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 0px auto;
+}
